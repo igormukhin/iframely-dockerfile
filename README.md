@@ -1,4 +1,4 @@
-Simple Dockerfile for Iframely
+Dockerfile for Iframely
 =================================
 
 ## Building the image
@@ -15,7 +15,7 @@ docker build -t iframely .
 docker run -d -p 8061:8061 --name iframely iframely
 ```
 
-To test it, call the folling URL in a browser or `curl` it:
+To test it, call the following URL in a browser or `curl` it:
 
 ```
 http://localhost:8061/iframely?uri=https://www.youtube.com/watch?v=9bZkp7q19f0
